@@ -1,0 +1,60 @@
+#train {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #282828;
+}
+#popup {
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    background-color: #282828;
+}
+
+div {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.bottomNav {
+    height: 60px;
+    width: 100%;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.inputIcon {
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+}
+
+input {
+    width: 60%;
+    height: 30%;
+}
+
+h1 {
+    color: white;
+    font-family: "Calibri Light", monospace;
+    font-weight: lighter;
+}
+
+a:link {
+    color: white;
+    background-color: #404040;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Calibri Light", monospace;
+    font-size: medium;
+    font-weight: lighter;
+    display: inline-block;
+}
