@@ -1,12 +1,13 @@
-#train {
+#large {
     width: 400px;
     height: 400px;
     overflow: hidden;
     background-color: #282828;
 }
-#popup {
+
+#small {
     width: 400px;
-    height: 100px;
+    height: 150px;
     overflow: hidden;
     background-color: #282828;
 }
@@ -18,7 +19,7 @@ div {
 }
 
 .bottomNav {
-    height: 60px;
+    height: 50px;
     width: 100%;
 }
 
@@ -36,6 +37,13 @@ div {
     background-size: 20px;
 }
 
+br {
+    display: block;
+    content: "";
+    margin-top: 5px;
+}
+
+
 input {
     width: 60%;
     height: 30%;
@@ -44,6 +52,13 @@ input {
 h1 {
     color: white;
     font-family: "Calibri Light", monospace;
+    font-weight: lighter;
+}
+
+p {
+    color: white;
+    font-family: "Calibri Light", monospace;
+    font-size: large;
     font-weight: lighter;
 }
 

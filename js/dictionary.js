@@ -10,6 +10,11 @@ function addListener(input) {
 function handleOnEnter(event, input) {
     if (event.code === "Enter") {
         console.log("success");
-        alert(input.value);
+        navigateToResultPage(input);
     }
+}
+
+function navigateToResultPage(input) {
+    localStorage.setItem("searchTerm", input.value)
+    location.replace("result.html")
 }
