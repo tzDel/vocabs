@@ -1,8 +1,9 @@
 {
   "name": "vocab",
   "description": "Save an train your vocabs",
-  "version": "1.0",
+  "version": "0.1",
   "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html"
   }
