@@ -1,12 +1,27 @@
 console.log("start")
-const input = document.getElementById("searchinput")
-input.addEventListener("keyup", event => onEnter(event, input))
+addListeners()
+
+function addListeners() {
+    const input = document.getElementById("searchinput")
+    input.addEventListener("keyup", event => onEnter(event, input))
+
+    const savedButton = document.getElementById("savedbtn")
+    console.log(savedButton);
+    savedButton.onclick = event => location.replace("saved.html")
+
+    const trainButton = document.getElementById("trainbtn")
+    console.log(trainButton);
+    trainButton.onclick = event => location.replace("train.html")
+}
 
 function onEnter(event, input) {
     if (event.code === "Enter") {
-        console.log("enter")
-            navigateToResultPage(input)
-        }
+        navigateToResultPage(input)
+    }
+}
+
+function navigateTo(destination) {
+    location.replace(destination)
 }
 
 async function navigateToResultPage(input) {
