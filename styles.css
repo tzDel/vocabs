@@ -18,41 +18,6 @@
     text-align: center;
 }
 
-.bottomNav {
-    height: 100%;
-    width: 100%;
-}
-
-.align-left {
-    text-align: left;
-}
-
-.align-right {
-    text-align: right;
-    height: 100vh;
-    width: 100%;
-}
-
-.inputIcon {
-    padding-left: 25px;
-    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
-    background-size: 20px;
-}
-
-br {
-    display: block;
-    content: "";
-    margin-top: 5px;
-}
-
-
-input {
-    width: 60%;
-    height: 15%;
-    color: white;
-    font-family: "Calibri Light", monospace;
-}
-
 h1 {
     color: white;
     font-family: "Calibri Light", monospace;
