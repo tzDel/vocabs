@@ -59,93 +59,9 @@ h1 {
     font-weight: lighter;
 }
 
-p {
-    color: white;
-    font-family: "Calibri Light", monospace;
-    font-size: large;
-    font-weight: lighter;
-}
-
-a:link {
-    color: white;
-    background-color: #404040;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-family: "Calibri Light", monospace;
-    font-size: medium;
-    font-weight: lighter;
-    display: inline-block;
-}
-
 img {
     position:absolute;
     top: -15%;
     left: -5%;
     overflow: visible;
-}
-
-.saveButton {
-    background-color: #282828;
-    border-radius: 12px;
-    padding: 3px 10px;
-    color: white;
-    border: 2px solid #307ca9;
-    position:absolute;
-    bottom: 8px;
-    right: 8px;
-}
-
-.saveButton:hover {
-    background-color: #307ca9;
-    color: white;
-}
-
-
-.backButton {
-    background-color: #282828;
-    border-radius: 12px;
-    padding: 3px 10px;
-    color: white;
-    border: 2px solid #404040;
-    position:absolute;
-    bottom: 8px;
-    left: 8px;
-}
-
-.backButton:hover {
-    background-color: #404040;
-    color: white;
-}
-
-.savedButton {
-    background-color: #282828;
-    border-radius: 12px;
-    padding: 3px 20px;
-    color: white;
-    border: 2px solid #307ca9;
-    position:absolute;
-    bottom: 8px;
-    right: 8px;
-}
-
-.savedButton:hover {
-    background-color: #307ca9;
-    color: white;
-}
-
-.trainButton {
-    background-color: #282828;
-    border-radius: 12px;
-    padding: 3px 10px;
-    color: white;
-    border: 2px solid #94410b;
-    position:absolute;
-    bottom: 8px;
-    right: 125px;
-}
-
-.trainButton:hover {
-    background-color: #94410b;
-    color: white;
 }
