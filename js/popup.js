@@ -1,22 +1,16 @@
 console.log("start")
 const input = document.getElementById("searchinput")
-console.log(input)
 input.addEventListener("keyup", event => onEnter(event, input))
 
 function onEnter(event, input) {
-    console.log("onEnter")
-    console.log("event: " + event.code)
-    console.log("input: " + input.value)
     if (event.code === "Enter") {
         console.log("enter")
-         navigateToResultPage(input)
-     }
+            navigateToResultPage(input)
+        }
 }
 
 async function navigateToResultPage(input) {
-    console.log(input.value)
     const translation = await getTranslationFor(input.value)
-    console.log(translation)
     localStorage.setItem("searchTerm", input.value)
     localStorage.setItem("translation", translation)
     location.replace("result.html")
@@ -24,7 +18,6 @@ async function navigateToResultPage(input) {
 
 async function getTranslationFor(searchTerm) {
     const json = await fetchTranslation(searchTerm)
-    console.log(json);
     return await JSON.parse(json).TranslatedContent
 }
 

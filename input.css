@@ -1,11 +1,7 @@
-form {
-    position: relative;
-    top: 15%;
-    left: 15%;
-}
-
 .input-container {
     position: relative;
+    top: 25%;
+    left: 17%;
     margin-bottom: 25px;
 }
 
@@ -39,5 +35,4 @@ form {
 .input-container input:valid ~ label {
     top: -12px;
     font-size: 12px;
-
 }
