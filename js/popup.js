@@ -9,6 +9,7 @@ function onEnter(event, input) {
 
 async function navigateToResultPage(input) {
     const translation = await getTranslationFor(input.value)
+    console.log(translation)
     localStorage.setItem("searchTerm", input.value)
     localStorage.setItem("translation", translation)
     location.replace("result.html")

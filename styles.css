@@ -12,14 +12,14 @@
     background-color: #282828;
 }
 
-div {
-    height: 100px;
+.container {
+    height: 100%;
     width: 100%;
     text-align: center;
 }
 
 .bottomNav {
-    height: 50px;
+    height: 100%;
     width: 100%;
 }
 
@@ -48,7 +48,9 @@ br {
 
 input {
     width: 60%;
-    height: 30%;
+    height: 15%;
+    color: white;
+    font-family: "Calibri Light", monospace;
 }
 
 h1 {
@@ -76,18 +78,41 @@ a:link {
     display: inline-block;
 }
 
+img {
+    position:absolute;
+    top: -15%;
+    left: -5%;
+    overflow: visible;
+}
+
 .saveButton {
     background-color: #282828;
     border-radius: 12px;
     padding: 3px 10px;
     color: white;
-    border: 2px solid #8024e8;
+    border: 2px solid #307ca9;
     position:absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 8px;
+    right: 8px;
 }
 
 .saveButton:hover {
-    background-color: #8024e8;
+    background-color: #307ca9;
+    color: white;
+}
+
+.backButton {
+    background-color: #282828;
+    border-radius: 12px;
+    padding: 3px 10px;
+    color: white;
+    border: 2px solid #404040;
+    position:absolute;
+    bottom: 8px;
+    left: 8px;
+}
+
+.backButton:hover {
+    background-color: #404040;
     color: white;
 }
