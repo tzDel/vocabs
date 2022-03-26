@@ -12,6 +12,19 @@
     background-color: #282828;
 }
 
+.resultContainer {
+    position: absolute;
+    top: 0;
+    right: 32%;
+}
+
+.resultFont {
+    color: white;
+    font-family: "Futura, monospace", ;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
 .container {
     height: 100%;
     width: 100%;

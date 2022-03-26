@@ -6,12 +6,13 @@ function addListeners() {
     input.addEventListener("keyup", event => onEnter(event, input))
 
     const savedButton = document.getElementById("savedbtn")
-    console.log(savedButton);
     savedButton.onclick = event => location.replace("saved.html")
 
     const trainButton = document.getElementById("trainbtn")
-    console.log(trainButton);
-    trainButton.onclick = event => location.replace("train.html")
+    trainButton.onclick = event => location.replace("train.html")   
+
+    const testButton = document.getElementById("testbtn")
+    testButton.onclick = event => location.replace("result.html")
 }
 
 function onEnter(event, input) {
